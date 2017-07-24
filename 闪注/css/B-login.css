@@ -1,0 +1,82 @@
+.banner{
+	background: #ffab25;
+	text-align: center;
+	font-size: 18px;
+}
+.banner .logo{
+	margin: 0 auto;
+	width: 4.15rem;
+	padding-top: 2.9rem;
+}
+.banner .logo img{
+	width: 100%;
+}
+.banner .user{
+	color: white;
+	padding-top: 0.6rem;
+	padding-bottom:2.1rem;
+}
+.banner .user a{
+	display: inline-block;
+	background: #ffc801;
+	padding: 0.15rem;
+	color: white;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+	padding: 1.45rem 1.2rem 0.5rem 1.2rem;
+	border-bottom: 1.15rem solid #f5f5f5;
+}
+.box .left{
+	width: 30%;
+	color: #d4d4d4;
+}
+.box .left p{
+	font-size: 0.5rem;
+}
+.box .left p span{
+	color: #fa6c24;
+	font-size: 1.4rem;
+}
+.box .right{
+	width: 60%;
+}
+.box .right img{
+	width: 100%;
+}
+.list{
+	border-top: 1px solid #f1f1f1;
+}
+.list li{
+	display: flex;
+}
+.list li .picture{
+	width: 10%;
+	padding: 0.65rem 1.35rem;
+}
+.list li .picture img{
+	width: 100%;
+}
+.list li .font{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #f1f1f1;
+}
+.list li .font .msg{
+	color: #cdcdcd;
+	font-size: 0.8rem;
+}
+.list li .font .num{
+	font-size: 0.5rem;
+	color: #fdc9ac;
+	margin-right: 1rem;
+}
+.list li .font .num i{
+	color: #cdcdcd;
+}
+.list li.last{
+	border-top: 1.2rem solid #f5f5f5;
+}

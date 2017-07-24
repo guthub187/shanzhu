@@ -1,0 +1,62 @@
+html, body {
+  background: #F6F5F4; }
+
+header {
+  width: 100%;
+  background: #FFAC2C;
+  padding: 0.5rem 0; }
+  header .xiugai {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    position: relative; }
+    header .xiugai a span {
+      font-size: 1.5rem;
+      color: #FFFFFF;
+      position: absolute;
+      left: 0;
+      top: -0.2rem; }
+    header .xiugai h1 {
+      font-weight: normal;
+      color: #FFFFFF; }
+
+article {
+  width: 100%;
+  background: #F6F5F4; }
+  article p {
+    font-size: 0.5rem;
+    color: #918E89;
+    padding: 0.5rem 0.3rem; }
+  article .yuandenglu {
+    width: 100%;
+    background: #fff;
+    height: 2rem;
+    display: flex; }
+    article .yuandenglu .pass {
+      border: none;
+      color: #7D7A74;
+      font-size: 0.7rem;
+      width: 95%;
+      height: 1.9rem;
+      padding-left: 0.2rem; }
+    article .yuandenglu img {
+      width: 1rem;
+      height: 1rem;
+      padding-left: 0.3rem;
+      padding-top: 0.4rem; }
+  article .btn {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    color: #fff;
+    background: #FFD450;
+    border-radius: 0.3rem;
+    text-align: center;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border: none;
+    display: block;
+    margin-top: 0.7rem; }
+
+/*# sourceMappingURL=ZLL-xiugaidenglumima.css.map */

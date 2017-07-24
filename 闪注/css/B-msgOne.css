@@ -1,0 +1,33 @@
+header{
+	background: #ffac2c;
+	padding: 0.5rem;
+	color: white;
+	font-size: 1.25rem;
+}
+.top{
+	width: 66%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.top a{
+	color: white;
+}
+.content .logo{
+	padding-top: 1.7rem;
+	width: 7.75rem;
+	margin: 0 auto;
+	padding-bottom: 1.4rem;
+}
+.content .logo img{
+	width: 100%;
+}
+.content .font{
+	font-size: 0.6rem;
+	color: #d5d4d4;
+	line-height: 1.3rem;
+	text-align: center;
+}
+.content .font p a{
+	color: #91d6f4;
+}

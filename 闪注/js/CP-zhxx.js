@@ -1,0 +1,10 @@
+$(function(){
+	$(".header-tou").tap(function(){
+		$(".zhxx-djh").toggleClass("zhxx-togg");
+		$(".zhxx-djnr").toggleClass("zhxx-togg");
+	});
+	$(".zhxx-djh").tap(function(){
+		$(".zhxx-djh").toggleClass("zhxx-togg");
+		$(".zhxx-djnr").toggleClass("zhxx-togg");
+	});
+});

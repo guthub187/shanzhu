@@ -1,0 +1,25 @@
+登陆    吴波   命名  登陆页为index.html   放在最外  其他放进html文件夹  
+系统设置里  官方微信页面+完善个人资料+系统设置.jpg     酒卫东
+系统设置里  修改登录密码      张玲玲
+个人主页和应用信息   白高丽
+注册量统计和账户信息里的账户信息.jpg+账户信息-应用选择.jpg  陈盼蓉
+账户信息   应用详情      刘懿麟
+账户信息  充值记录+消费记录     梅臣
+
+
+
+
+
+
+
+
+
+html/css/js/img   各自以自己的姓名大写缩写英文字母开头    示例：LYL-xxxx.js
+img文件放在image文件夹里
+html文件 除了吴波的登陆页起名index.html 放在最外面  其他人全部放在html文件夹里
+ 
+用zepto.js 做效果
+如有angular效果可以使用angular   命名统一angular.min.js
+css默认样式可以使用reset.css 或 base.css
+rem换算统一   为一同发出的rem.js
+

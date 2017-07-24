@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "榛戜綋";
+  display: flex;
+  flex-direction: column; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.mc_box {
+  width: 100%;
+  height: 100%; }
+  .mc_box header {
+    width: 100%;
+    height: 2rem;
+    background: orange;
+    text-align: center;
+    line-height: 2rem;
+    display: flex;
+    justify-content: space-between; }
+    .mc_box header span {
+      color: white;
+      font-size: 1.3rem; }
+    .mc_box header h4 {
+      font-size: 0.8rem;
+      color: white;
+      font-weight: 200; }
+  .mc_box .mc_content {
+    width: 100%; }
+    .mc_box .mc_content .mc_data {
+      width: 100%;
+      height: 1rem;
+      background: #eeeeee; }
+      .mc_box .mc_content .mc_data p {
+        font-size: 0.5rem;
+        line-height: 1rem;
+        padding-left: 0.2rem;
+        color: darkgray; }
+    .mc_box .mc_content ul {
+      width: 100%; }
+      .mc_box .mc_content ul li {
+        width: 100%;
+        height: 2.5rem;
+        display: flex;
+        border-bottom: 2px solid #EEEEEE;
+        position: relative; }
+        .mc_box .mc_content ul li .mc_duan {
+          background: red; }
+        .mc_box .mc_content ul li span:nth-of-type(1) {
+          margin-top: 0.5rem;
+          margin-left: 0.35rem;
+          display: inline-block;
+          width: 1.5rem;
+          height: 1.5rem;
+          background: orange;
+          line-height: 1.5rem;
+          text-align: center;
+          color: white;
+          border-radius: 0.2rem; }
+        .mc_box .mc_content ul li span:nth-of-type(2) {
+          font-size: 0.5rem;
+          display: inline-block;
+          margin-top: 0.4rem;
+          margin-left: 0.8rem;
+          width: 3rem;
+          height: 0.8rem;
+          border: 1px solid orange;
+          border-radius: 1rem;
+          text-align: center;
+          color: orange; }
+        .mc_box .mc_content ul li span:nth-of-type(3) {
+          font-size: 0.7rem;
+          margin-top: 0.3rem;
+          display: block;
+          height: 1rem; }
+        .mc_box .mc_content ul li p {
+          font-size: 0.5rem;
+          position: absolute;
+          margin-left: -6.4rem;
+          color: gray; }
+        .mc_box .mc_content ul li span:nth-of-type(4) {
+          color: orange;
+          margin-left: 3rem;
+          line-height: 2.5rem;
+          font-size: 0.8rem; }
+
+.mc_xiabox {
+  width: 100%;
+  height: 68%;
+  background: gray;
+  opacity: 0.5;
+  position: absolute;
+  top: 9rem; }
+
+.mc_xiala {
+  width: 100%;
+  height: 7rem;
+  background: white;
+  position: absolute;
+  top: 2rem; }
+  .mc_xiala p {
+    background: orange;
+    width: 3.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: 0.2rem;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem; }
+    .mc_xiala p a {
+      color: white; }
+  .mc_xiala div {
+    margin: 1rem auto;
+    width: 80%;
+    height: 3rem;
+    border-top: 1px solid gray; }
+    .mc_xiala div span {
+      background: #EEEEEE;
+      width: 3.5rem;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      border-radius: 0.2rem;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      font-size: 0.7rem; }
+
+/*# sourceMappingURL=mc_chong.css.map */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/YLY-YEZH.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<span class="fa fa-angle-left"></span>
+			<a href="javascript:;">余额转换</a>
+		</header>
+		<div class="face">
+			<div>
+				<div class="yellowBall">
+					短
+				</div>
+				<div class="center">
+					<p>余额转换</p>
+					<img src="../image/LYL-GO.png" alt="" />
+				</div>
+				<div class="whiteBall">
+					闪
+				</div>
+			</div>
+			<p>
+				您仅可以将短信量转化为闪注量
+			</p>
+		</div>
+		<div class="count">
+			<p>
+				当前短信账户余额为： <span>100</span>条
+			</p>
+		</div>		
+		<div class="top">
+			<span>短信量</span>
+			<input type="text" name="" id="" value="" placeholder="您最多可以转换短信量100条"/>
+		</div>
+		<div class="bottom">
+			<span>闪注量</span>
+			<input type="text" name="" id="" value="" placeholder="0"/>
+		</div>
+		<a href="javascript:;" class="btn">余额转换</a>
+		<div class="black">
+			<div class="big">
+				
+			</div>
+			<div class="small">
+				<p class="one">
+					余额转换成功！
+				</p>
+				<a href="javascript:;" class="two">
+				 	确定
+				</a>
+			</div>
+		</div>
+	</body>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/rem.js"></script>
+	<script type="text/javascript">
+		$('.btn').tap(function(){
+			$('.black')[0].style.display='block'
+		})
+		
+		$('.black .two').tap(function(){
+			$('.black')[0].style.display='none'
+		})
+	</script>
+</html>

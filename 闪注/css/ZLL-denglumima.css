@@ -1,0 +1,47 @@
+html, body {
+  background: #F6F5F4; }
+
+header {
+  width: 100%;
+  background: #FFAC2C;
+  padding: 0.5rem 0; }
+  header .xiugai {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    position: relative; }
+    header .xiugai a span {
+      font-size: 1.5rem;
+      color: #FFFFFF;
+      position: absolute;
+      left: 0;
+      top: -0.2rem; }
+    header .xiugai h1 {
+      font-weight: normal;
+      color: #FFFFFF; }
+
+article {
+  width: 100%;
+  background: #F6F5F4; }
+  article p {
+    font-size: 0.5rem;
+    color: #918E89;
+    padding: 0.5rem 0.4rem; }
+  article ul {
+    width: 100%;
+    background: #FFFFFF; }
+    article ul li {
+      border-bottom: 1px solid #ddd;
+      padding: 0.5rem 0.3rem;
+      display: flex;
+      justify-content: space-between; }
+      article ul li p {
+        font-size: 0.8rem;
+        color: #3D3D3D;
+        font-weight: bold; }
+      article ul li span {
+        padding-right: 0.3rem;
+        padding-top: 0.3rem; }
+
+/*# sourceMappingURL=ZLL-denglumima.css.map */

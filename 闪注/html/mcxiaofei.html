@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1"/>
+		<meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0 maximum-scale=1.0 user-scalable=no" />
+		<meta name="format-detection" content="telephone=no email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/mc_chong.css"/>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body ng-controller="test">
+		<div class="mc_box" ng-init="a=false">
+			<header><a href=""><span><</span></a><a href="" ng-click="a=!a"><h4>消费记录↓</h4></a><span></span></header>
+			<div class="mc_content">
+				<div class="mc_data"><p>2016年&nbsp;&nbsp;本月</p></div>
+				<ul>
+					<li>
+						<span>闪</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;">-2条</span>
+					</li>
+					<li>
+						<span style="background: red;">短</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;color:red;">-2条</span>
+					</li>
+
+<li>
+						<span style="background: red;">短</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;">-2条</span>
+					</li>
+
+<li>
+						<span>闪</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;color:red;">-2条</span>
+					</li>
+					<div class="mc_data"><p>2016年&nbsp;&nbsp;6月</p></div>
+
+<li>
+						<span>闪</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;">-2条</span>
+					</li>
+					<li>
+						<span>闪</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;">-2条</span>
+					</li>
+					<li>
+						<span>闪</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;color:red;">-2条</span>
+					</li>
+					<li>
+						<span>闪</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;color:red;">-2条</span>
+					</li>
+					<div class="mc_data"><p>2016年&nbsp;&nbsp;7月</p></div>
+<li>
+						<span>闪</span>
+						<span>天天消消乐</span>
+						<span>闪注量消费</span><br />
+						<p>2016-7-1&nbsp;14:24:45</p>
+						<span style="margin-left: 5rem;color:red;">-1条</span>
+					</li>
+				</ul>
+			</div>
+			<div class="mc_xiala" ng-show="a">
+			<p><a href="">全部</a></p>
+			<div>
+				<span>天天消消乐</span><span>大话西游</span><span>王者荣耀</span>
+			</div>
+		</div>
+		<div class="mc_xiabox" ng-show="a"></div>
+		</div>
+		
+		
+		<script type="text/javascript">
+			var app=angular.module("app",[]);
+			app.controller("test",function($scope){
+				
+			})
+		</script>
+	</body>
+</html>
